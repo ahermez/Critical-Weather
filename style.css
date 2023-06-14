@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 168, 232); 
+}
+
+ /* .header {
+    /* width: 50px; /* adjust the width as per your needs */
+    /* height: 50px; adjust the height as per your needs */  
+     
+/* } */
+
+.main-weather-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+}
+
+.main-weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px black; */
+    width: 50rem;
+}
+
+.history{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.five-day-forecast{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background-color: rgb(182, 180, 184);
+ }
+
+.five-day-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
